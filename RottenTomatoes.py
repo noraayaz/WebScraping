@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 url = 'https://editorial.rottentomatoes.com/guide/100-best-classic-movies/'
 # db_name = 'Movies.db'
 # table_name = 'Top_50'
-csv_path = 'C:/Users/Kerem/Desktop/nora_project/PythonProject/top_25_films.csv'
+csv_path = 'C:/Users/Kerem/Desktop/PythonProjects/post1950_classic_films.csv'
 df = pd.DataFrame(columns=["Film","Year", "Header"])
 
 # Get HTML content from the URL
