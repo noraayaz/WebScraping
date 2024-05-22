@@ -1,5 +1,5 @@
 ﻿# WebScraping
-   RottenTomatoes.py
+   "RottenTomatoes.py"
    This Python script is designed to scrape a list of the top 100 classic movies from the Rotten Tomatoes editorial guide. The script focuses on films released in 1950 or later and organizes the data into a structured format.
 
 Technologies Used
@@ -7,6 +7,7 @@ Technologies Used
 *  Requests: A Python library utilized to make HTTP requests to retrieve the webpage containing the movie list.
 *  Beautiful Soup: Employed for parsing HTML and extracting data, enabling the isolation of specific content within web pages.
 *  Pandas: A powerful data manipulation library used to create and handle the DataFrame containing the movie details.
+
 Functionality
 *  Data Extraction: The script fetches the HTML content of the specified URL and uses Beautiful Soup to parse it, extracting movie names, release years, and their corresponding HTML headers.
 *  Data Filtering: It filters the movies to include only those released from 1950 onwards.
