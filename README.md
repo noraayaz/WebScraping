@@ -1,5 +1,5 @@
 ﻿# WebScraping
-   "RottenTomatoes.py"
+   RottenTomatoes.py(bold)
    This Python script is designed to scrape a list of the top 100 classic movies from the Rotten Tomatoes editorial guide. The script focuses on films released in 1950 or later and organizes the data into a structured format.
 
 Technologies Used
